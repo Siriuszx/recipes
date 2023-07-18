@@ -1,0 +1,26 @@
+* {
+    font-family: 'Arial', sans-serif;
+    
+}
+
+img {
+    height: 600px;
+    width: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1, h2 {
+    background-color: #00BBF9;
+}
+
+p {
+    text-align: center;
+}
+
+.recipe_list li {
+    background-color: #00F5D4;
+    font-weight: 700;
+}
