@@ -1,26 +1,42 @@
 * {
     font-family: 'Arial', sans-serif;
-    
+    box-sizing: border-box;
+    margin: 0;
 }
 
 img {
-    height: 600px;
+    height: 400px;
     width: auto;
+    display: inline-block;
 }
 
 h1 {
     text-align: center;
 }
 
-h1, h2 {
-    background-color: #00BBF9;
+p {
+    margin: 0;
+    margin: 50px 0;
+    width: 600px;
 }
 
-p {
-    text-align: center;
+h1, h2 {
+    background-color: #00BBF9;
 }
 
 .recipe_list li {
     background-color: #00F5D4;
     font-weight: 700;
+    margin: 5px;
+}
+
+.recipe_intro {
+    width: 100%;
+}
+
+.recipe_intro_text {
+    width: 66%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
 }
